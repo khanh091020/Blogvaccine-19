@@ -1,0 +1,59 @@
+.signup{
+
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+        ),
+     url("https://scontent.fhan2-1.fna.fbcdn.net/v/t39.30808-6/269401352_904607337112777_1062795107758352903_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_ohc=fGVR-qpxW7QAX-ydr3u&_nc_ht=scontent.fhan2-1.fna&oh=00_AT9xIV-h8faozR42uTSEu8jNBoalnNC1jhuPdLCC7egPog&oe=61E03380");
+    background-size:cover;
+}
+
+.signupTitle{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 380;
+    font-size: 50px;
+}
+
+.signupForm{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.signupForm > label{
+    margin: 10px 0;
+}
+
+
+.signupInput {
+    padding: 10px;
+    background-color: rgb(250, 250, 250);
+    border: none;
+    border-radius: 10px;
+}
+  
+  .signupInput:focus {
+    outline: none;
+}
+  
+  .signupButton {
+    margin-top: 20px;
+    cursor: pointer;
+    font: 20px serif;
+    background-color: rgb(38, 111, 250);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+  .signupButton:hover{
+      background-color: rgb(38, 38, 238);
+}
+  

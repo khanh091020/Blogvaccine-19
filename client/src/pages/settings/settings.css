@@ -1,0 +1,122 @@
+.settings {
+    display: flex;
+  }
+  
+  .settingsWrapper {
+    flex: 9;
+    padding: 20px;
+  }
+  
+  .settingsTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .settingsUpdateTitle {
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: black;
+  }
+  
+  
+  .settingsForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .settingsPP {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .settingsPP > img {
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    object-fit: cover;
+  }
+  
+  .settingsPPIcon {
+    width:  20px;
+    height: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    margin-left: 30px;
+    color: white;
+    background-color: rgb(163, 163, 163);
+    cursor: pointer;
+  }
+  
+  /*.settingsPPButton:focus {
+    outline-style: none;
+  }*/
+  
+  .settingsForm > label {
+    text-indent: 33px;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-right: 100px;
+  }
+  /*
+  .settingsPPInput {
+    width: 30%;
+  } */
+  
+  .settingsForm > input {
+    text-indent: 33px;
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  .settingsSubmit {
+    align-self: center;
+    width: 150px;
+    font: 20px serif;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(38, 111, 250);
+    padding: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .settingsSubmit:hover {
+    background-color: rgb(38, 38, 238);
+  }  
+
+
+
+  .settingsDeleteTitle {
+    align-self:center;
+    width: 150px;
+    font: 20px serif;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(243, 66, 66);
+    padding: 8px;
+    margin-top: 60px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .settingsDeleteTitle:hover {
+    background-color: rgb(199, 0, 0);
+  }

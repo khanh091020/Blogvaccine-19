@@ -1,0 +1,97 @@
+.post {
+  width: 385px;
+  margin: 0px 25px 40px 50px;
+  position: relative;
+  border: 1px solid #cfcaca;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.postImg {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.postInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.postCat {
+  font-family: "Varela Round", sans-serif;
+  font-size: 11px;
+  color: black;
+  line-height: 20px;
+  margin-top: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.postTitle {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.postDate {
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-size: 15px;
+  color: black;
+  margin-top: 18px;
+}
+
+.postDesc {
+  font-family: "Varela Round", sans-serif;
+  font-size: 15px;
+  color: #444;
+  line-height: 24px;
+  margin-top: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.statusPost,
+.actionAdminPost {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: white;
+}
+.success {
+  background-color: rgb(6, 139, 6);
+  color: white;
+}
+
+.warning {
+  background-color: rgb(255, 145, 0);
+}
+
+.btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn_delete {
+  background-color: rgb(189, 5, 5);
+  margin-right: 5px;
+}
+
+.btn_accept {
+  background-color: rgb(5, 184, 5);
+}

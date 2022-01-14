@@ -1,0 +1,11 @@
+.adminPost {
+  padding: 3rem 0;
+}
+.adminPost h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.container-posts {
+  display: flex;
+}
